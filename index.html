@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Killer Multi-Tool - Présentation</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+  body {
+    margin: 0;
+    background: #1a0d3e;
+    font-family: 'Share Tech Mono', monospace;
+    color: #d4cfff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    padding: 20px;
+  }
+
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  header h1 {
+    font-size: 4rem;
+    color: #b98aff;
+    text-shadow: 0 0 10px #b98aff, 0 0 20px #7f5fc9;
+    letter-spacing: 8px;
+    margin: 0;
+  }
+
+  header p {
+    font-size: 1.3rem;
+    color: #aa99ffaa;
+  }
+
+  main {
+    max-width: 900px;
+    width: 100%;
+  }
+
+  .option {
+    background: #3e2979;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    padding: 18px 24px;
+    box-shadow: 0 0 10px #7f5fc9aa;
+    cursor: default;
+    transition: background 0.3s ease;
+  }
+
+  .option:hover {
+    background: #5a3baf;
+  }
+
+  .option h2 {
+    margin: 0 0 8px 0;
+    color: #d9bcff;
+  }
+
+  .option p {
+    margin: 0;
+    color: #cdc4ffcc;
+    font-size: 0.95rem;
+    line-height: 1.4;
+  }
+
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+  }
+
+  button {
+    background: #7f5fc9;
+    border: none;
+    padding: 18px 40px;
+    font-size: 1.3rem;
+    border-radius: 14px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 0 15px #b98affaa;
+    transition: background 0.3s ease;
+  }
+
+  button:hover {
+    background: #a47fff;
+  }
+
+  #installBtn {
+    font-size: 1.8rem;
+    padding: 22px 60px;
+    box-shadow: 0 0 30px #d4bbffdd;
+  }
+
+  footer {
+    margin-top: auto;
+    text-align: center;
+    padding: 15px 10px;
+    color: #aa99ffaa;
+    font-size: 0.9rem;
+  }
+
+  a.discord-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 12px 28px;
+    background: #7289da;
+    color: white;
+    font-weight: 700;
+    border-radius: 12px;
+    text-decoration: none;
+    box-shadow: 0 0 10px #7289daaa;
+    transition: background 0.3s ease;
+  }
+
+  a.discord-link:hover {
+    background: #99a9f9;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>KILLER MULTI-TOOL</h1>
+  <p>La boîte à outils ultime pour hackers et passionnés d’OSINT</p>
+</header>
+
+<main>
+
+  <section class="option">
+    <h2>1. Scanner d'IP ultra performant avec géolocalisation</h2>
+    <p>Obtenez des informations complètes sur n’importe quelle adresse IP : localisation géographique, fournisseur d’accès, organisation, et plus encore.</p>
+  </section>
+
+  <section class="option">
+    <h2>2. Générateur de faux codes Discord Nitro</h2>
+    <p>Crée des codes Nitro aléatoires pour tester des bots ou faire des démos (codes non valides garantis).</p>
+  </section>
+
+  <section class="option">
+    <h2>3. Recherche OSINT sur pseudonymes</h2>
+    <p>Explore automatiquement plusieurs réseaux sociaux et plateformes pour retrouver des traces d’un pseudo donné.</p>
+  </section>
+
+  <section class="option">
+    <h2>4. Scanner de ports ciblé</h2>
+    <p>Analyse les ports ouverts sur une machine distante pour vérifier les vulnérabilités potentielles.</p>
+  </section>
+
+  <section class="option">
+    <h2>5. Générateur de mots de passe forts</h2>
+    <p>Créez des mots de passe complexes, alphanumériques et symboles pour sécuriser vos comptes et systèmes.</p>
+  </section>
+
+  <section class="option">
+    <h2>6. Encodeur/Décodeur Base64</h2>
+    <p>Encodez ou décodez facilement des chaînes en Base64, utile pour l’analyse et l’exploitation de données.</p>
+  </section>
+
+  <section class="option">
+    <h2>7. Brute-force de fichiers ZIP protégés</h2>
+    <p>Tente de déchiffrer un mot de passe de fichier ZIP avec une liste de mots pour récupérer les données cachées.</p>
+  </section>
+
+  <section class="option">
+    <h2>8. Générateur de fausses identités</h2>
+    <p>Crée des identités aléatoires complètes (nom, email, localisation) pour tests et simulations.</p>
+  </section>
+
+  <section class="option">
+    <h2>9. Générateur d’User-Agent</h2>
+    <p>Obtenez des User-Agent aléatoires pour simuler différentes connexions web et contourner certaines protections.</p>
+  </section>
+
+  <section class="option">
+    <h2>10. Analyse WHOIS & DNS</h2>
+    <p>Récupère les informations publiques des domaines web et leurs enregistrements DNS.</p>
+  </section>
+
+  <div class="btn-container">
+    <button id="installBtn">Installer le Killer Multi-Tool (ZIP)</button>
+    <a href="https://discord.gg/3skgK22qeS" target="_blank" class="discord-link">Rejoindre notre Discord</a>
+  </div>
+
+</main>
+
+<footer>
+  &copy; 2025 Killer Multi-Tool - Tous droits réservés
+</footer>
+
+<script>
+  document.getElementById('installBtn').addEventListener('click', () => {
+    // Remplace par le lien direct vers ton fichier ZIP hébergé
+    const zipUrl = 'https://gofile.io/d/Z9675B';
+
+    const a = document.createElement('a');
+    a.href = zipUrl;
+    a.download = 'Killer-Multi-Tool.zip';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+  });
+</script>
+
+</body>
+</html>
